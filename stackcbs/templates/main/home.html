@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+
+.bg1{
+  width: 100%;
+  height: 300px;
+  background-image: url( "{% static 'media_root/greg-rakozy-oMpAz-DN-9I-unsplash.jpg' %}");
+}
+</style>
+
+{% block content %}
+
+{{hello_t}}
+<br>
+{{user_t}}
+<p><p></p></p>
+<br>
+
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+{% else %}
+  <p>You are not logged in</p>
+{% endif %}
+{% endblock content %}
+
+{% block scripts %}
+<script>
+    $(document).ready(function(){
+        console.log('working')
+    })
+</script>
+{% endblock scripts %}
+
+

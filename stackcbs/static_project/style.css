@@ -1,0 +1,47 @@
+
+
+.bg1{
+    background-image: url('media_root/greg-rakozy-oMpAz-DN-9I-unsplash.jpg') !important;
+    background-size: cover !important;
+} 
+
+
+.nav {
+    border-radius: 0px !important;
+    padding: 10px 0 10px 0 !important;
+    background-color: #273a4d !important;
+
+}
+
+.mb-7 {
+    margin-bottom: 7px;
+}
+
+.mt-5 {
+    margin-bottom: 5px;
+}
+
+.mymodal{
+    height: 300px !important;
+    top:200px !important;
+    font-size: 20px !important;
+}
+
+.mb-5 {
+    margin-bottom: 7px !important;
+}
+
+/*for update delete and like */
+.bwhite-lg {
+    background-color: transparent !important;
+}
+
+.bwhite-sm {
+    background-color: transparent !important;
+    width: 10px !important;
+}
+
+/*inline-block an be use */
+.comment-box{
+    display: none;
+}
