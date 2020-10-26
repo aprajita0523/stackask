@@ -1,4 +1,6 @@
-django==3.0.3
+Django>=3.0,<=3.1
 rest_framework==3.12.1
-psycopg2==2.8.6
+psycopg2-binary
 pillow
+whitenoise
+
