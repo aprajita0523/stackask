@@ -3,6 +3,9 @@
 {% block title %}
 Home
 {% endblock title %}
+
+
+{% block content %}
 <style>
   body{
     background-image: url( "{% static 'media_root/abc.jpg' %}");
@@ -11,9 +14,6 @@ Home
     background-size: cover;
 }
 </style>
-
-{% block content %}
-
 {{hello_t}}
 <br>
 {{user_t}}
